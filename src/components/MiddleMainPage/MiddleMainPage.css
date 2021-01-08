@@ -1,0 +1,48 @@
+.upperPart{
+    display: flex;
+    width: inherit;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.middlePart{
+    display: flex;
+}
+.middlePart1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.smallCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middlePart2{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media all and (max-width:700px){
+   .middlePart{
+       flex-direction: column;
+   }
+   .middlePart1{
+    width: 100%;
+   }
+   .middlePart2{
+    width: 100%;
+    margin: 15px auto;
+   }
+   .smallCard{
+       margin: 10px auto;
+       padding: 10px;
+   }
+}

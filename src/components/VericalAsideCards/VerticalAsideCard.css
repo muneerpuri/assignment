@@ -1,0 +1,18 @@
+.mainCardFrame{
+    width: 35%;
+    height: 100px;
+    background-color: rgb(247, 248, 247);    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.logoItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

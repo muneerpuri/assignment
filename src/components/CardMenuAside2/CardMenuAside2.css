@@ -1,0 +1,45 @@
+.mainFrame {
+    background-color: rgb(247, 248, 247);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 10px;
+     padding: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.boxIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(95, 182, 176);
+}
+.textBox{
+    font-size: 12px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.letsFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayColumn{
+    display: flex;
+    color:rgb(184, 184, 184);
+    cursor: pointer;
+    /* height: 20px;
+    width: 20px; */
+}
+.img{
+    width: 25px;
+    height: 25px;
+}

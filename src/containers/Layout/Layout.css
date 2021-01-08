@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.NavSmall{
+    display: none;
+}
+.mainBox {
+    width: 100%;
+    display: flex;
+}
+.asideBox{
+    width: 25%;
+    height: 100vh;
+    border-right:1px solid rgb(184, 184, 184);
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.mainPage{
+    width: 75%;   
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 25px 25px;
+}
+
+.upperAside{
+    height: 24%;
+    margin-bottom: 5px;
+}
+
+.bottomAside{
+    height: 36%;
+    margin-top: 5px;
+
+
+}
+.middleAside{
+    height: 40%;
+    position: relative;
+
+
+}
+.verticalWrapper{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topMain{
+    
+    height: 17%;
+}
+
+.middleMain{
+    height: 58%;
+}
+.bottomMain{
+    height: 25%;
+}
+
+@media all and (max-width:700px){
+    .NavSmall{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .asideBox{display: none;}
+    .mainPage{
+        padding: 0 0;
+    }
+    .mainBox{
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .topMain{
+    
+        height: auto;
+    }
+    
+    .middleMain{
+        height: auto;
+    }
+    .bottomMain{
+        height: auto;
+    }
+}

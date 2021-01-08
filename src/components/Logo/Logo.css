@@ -1,0 +1,44 @@
+.logoBox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainLogo{
+   background-color: rgb(229, 95, 61);
+   color: white;
+   width: 50px;
+   height: 40px;
+   border-radius: 50%;
+   font-weight: bold;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.logo1st{
+font-weight: bold;
+color: black;
+}
+.logo2nd{
+    font-weight: 100;
+    color: rgb(229, 95, 61);
+}
+
+.entireText{
+    position: relative;
+    font-size: 20px;
+    right: 25px;
+}
+@media all and (max-width:700px){
+    .logoBox{
+        margin: 15px 15px;
+        width: 55%;
+        margin: auto;
+    }
+    .entireText{
+        right: 0;
+    }
+}

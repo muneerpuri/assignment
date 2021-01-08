@@ -1,0 +1,29 @@
+.mainFrame {
+    background-color: rgb(247, 248, 247);    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border-radius: 10px;
+     padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.boxIcon{
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(131, 47, 244);
+}
+.textBox{
+    font-size: 12px;
+    position: relative;
+    right: 3px;
+}

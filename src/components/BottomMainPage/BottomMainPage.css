@@ -1,0 +1,48 @@
+.MainBox{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width: 70%;
+    height: 100%;
+}
+.upperPart{
+    display: flex;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    width: 30%;
+    height: 100%;
+}
+
+.downPart{
+    display: flex;
+    padding: 0 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.FormBox{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width:700px){
+    .MainBox{
+        flex-direction: column;
+        
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+}
