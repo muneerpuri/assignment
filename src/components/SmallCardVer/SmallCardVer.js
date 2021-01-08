@@ -1,9 +1,6 @@
 import React from 'react'
 import classes from './SmallCardVer.css'
 import imf1 from '../../assets/p1.png'
-// import imf2 from '../../assets/p2.png'
-// import imf3 from '../../assets/p3.png'
-// import imf4 from '../../assets/p4.png'
 
 class smallCard extends React.Component{
     render(){

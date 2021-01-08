@@ -18,11 +18,11 @@
 .smallCard{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .middlePart2{
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;

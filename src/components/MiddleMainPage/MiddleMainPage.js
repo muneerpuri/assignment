@@ -46,7 +46,6 @@ class middleMainPage extends React.Component{
                         
                         /></div>
                         <div className={classes.smallCard}>
-                           <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
                                <SmallCard
                            bg={bg4}
                            title="Lana Marandina"
@@ -54,8 +53,7 @@ class middleMainPage extends React.Component{
                            time="82 min"
                            para="Contrary to popular belief, Lorem Ipsum is"
                            
-                           /></div> 
-                           <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                           />
                                <SmallCard
                            bg={bg5}
                            title="Lana Marandina"
@@ -63,7 +61,7 @@ class middleMainPage extends React.Component{
                            time="82 min"
                            para="Contrary to popular belief, Lorem Ipsum is "
                            
-                           /></div> 
+                           />
                         </div>
                     </div>
 
