@@ -14,7 +14,7 @@ class topMainPage extends React.Component{
             <div className={classes.topMainBox}>
                 <div className={classes.box1}>
                     <div className={classes.upperPart}>
-                        <div > <span style={{fontWeight:'bold',textTransform:'capitalize'}}>streaming</span><span style={{ color:'rgb(184, 184, 184)'}}> Now</span> </div>
+                        <div > <span style={{marginBottom:'10px', fontWeight:'bold',textTransform:'capitalize'}}>streaming</span><span style={{ color:'rgb(184, 184, 184)'}}> Now</span> </div>
                         <div > <FontAwesomeIcon style={{ cursor:'pointer',color:'rgb(184, 184, 184)'}} icon={faEllipsisH}/></div>
                     </div>
                     <div className={classes.downPart}>
@@ -33,7 +33,7 @@ class topMainPage extends React.Component{
                 </div>
                 <div className={classes.box2}>
                 <div className={classes.upperPart}>
-                        <div > <span style={{fontWeight:'bold',textTransform:'capitalize'}}>Advanced</span><span style={{ color:'rgb(184, 184, 184)'}}> Search</span> </div>
+                        <div > <span style={{marginBottom:'10px',fontWeight:'bold',textTransform:'capitalize'}}>Advanced</span><span style={{ color:'rgb(184, 184, 184)'}}> Search</span> </div>
                         <div > <FontAwesomeIcon style={{ cursor:'pointer',color:'rgb(184, 184, 184)'}} icon={faEllipsisH}/></div>
                     </div>
                     <div className={classes.FormBox}>

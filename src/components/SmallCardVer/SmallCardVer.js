@@ -6,12 +6,12 @@ class smallCard extends React.Component{
     render(){
         return(
             <div style={{background:"url(" + this.props.bg + ")",backgroundPosition:'fixed',backgroundSize:'cover'}} className={classes.BigCardFrame}>
-               <div className={classes.upperBox}>
-                <div className={classes.upperBoxIn}>
+               <div style={{textAlign:'left',width:'100%'}} className={classes.upperBox}>
+                <div style={{textAlign:'left',width:'100%'}} className={classes.upperBoxIn}>
                     <div className={classes.logoUpper}>
                         <img className={classes.img} src={imf1} alt="ima"/>
                     </div>
-                    <div className={classes.textBox}>
+                    <div style={{textAlign:'left',width:'100%'}} className={classes.textBox}>
                     <p style={{fontWeight:'bold', fontSize: '12px'}}> {this.props.title}</p>
                     <p style={{ fontSize: '11px',color:'rgb(184, 184, 184)'}}> {this.props.subtitle}</p>
                 </div>

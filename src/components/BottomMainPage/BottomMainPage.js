@@ -14,7 +14,7 @@ class bottomMainPage extends React.Component{
             <div className={classes.MainBox}>
   <div className={classes.box1}>
                     <div className={classes.upperPart}>
-                        <div > <span style={{fontWeight:'bold',textTransform:'capitalize'}}>Top</span><span style={{ color:'rgb(184, 184, 184)'}}> Tutors</span> </div>
+                        <div > <span style={{marginBottom:'10px',fontWeight:'bold',textTransform:'capitalize'}}>Top</span><span style={{ color:'rgb(184, 184, 184)'}}> Tutors</span> </div>
                         <div > <FontAwesomeIcon style={{ cursor:'pointer',color:'rgb(184, 184, 184)'}} icon={faEllipsisH}/></div>
                     </div>
                     <div className={classes.downPart}>

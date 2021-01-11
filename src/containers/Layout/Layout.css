@@ -22,6 +22,9 @@
     height: 100vh;
     box-sizing: border-box;
     padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .upperAside{
@@ -48,7 +51,7 @@
     justify-content: space-around;
 }
 
-.topMain{
+/* .topMain{
     
     height: 17%;
 }
@@ -58,7 +61,7 @@
 }
 .bottomMain{
     height: 25%;
-}
+} */
 
 @media all and (max-width:700px){
     .NavSmall{

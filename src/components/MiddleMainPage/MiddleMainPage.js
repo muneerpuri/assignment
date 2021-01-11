@@ -15,7 +15,7 @@ class middleMainPage extends React.Component{
         return(
             <div>
                 <div className={classes.upperPart}>
-                        <div > <span style={{fontWeight:'bold',textTransform:'capitalize'}}>Popular</span><span style={{ color:'rgb(184, 184, 184)'}}> This Week</span> </div>
+                        <div > <span style={{marginBottom:'10px',fontWeight:'bold',textTransform:'capitalize'}}>Popular</span><span style={{ color:'rgb(184, 184, 184)'}}> This Week</span> </div>
                         <div > <FontAwesomeIcon style={{ cursor:'pointer',color:'rgb(184, 184, 184)'}} icon={faEllipsisH}/></div>
                     </div>
                 <div className={classes.middlePart}>
@@ -36,7 +36,7 @@ class middleMainPage extends React.Component{
                         />
                         </div>
                     <div className={classes.middlePart2}>
-                        <div>
+                        <div style={{width:'100%'}}>
                         <BigCardHori
                         bg={bg3}
                         title="Lana Marandina"
